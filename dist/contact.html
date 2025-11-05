@@ -61,64 +61,70 @@
                             <!-- To make this form functional, sign up at-->
                             <!-- https://startbootstrap.com/solution/contact-forms-->
                             <!-- to get an API token!-->
-                         <form id="contactForm" class="row g-3">
+                        <form id="contactForm" class="row g-3">
 
-                                <div class="col-12">
-                                    <div class="row align-items-center">
-                                    <div class="col-2 col-md-1">
-                                        <label for="name" class="form-label mb-0">Name</label>
-                                    </div>
-                                    <div class="col-10 col-md-11">
-                                        <input type="text" class="form-control" id="name" required>
-                                    </div>
-                                    </div>
-                                </div>
+  <!-- ==== Name ==== -->
+  <div class="col-12">
+    <div class="row align-items-center">
+      <div class="col-2 col-md-1">
+        <label for="name" class="form-label mb-0">Name</label>
+      </div>
+      <div class="col-10 col-md-11">
+        <input type="text" class="form-control" id="name" required>
+      </div>
+    </div>
+  </div>
 
-                                <div class="col-12">
-                                    <div class="row align-items-center">
-                                    <div class="col-2 col-md-1">
-                                        <label for="email" class="form-label mb-0">Email</label>
-                                    </div>
-                                    <div class="col-10 col-md-11">
-                                        <input type="email" class="form-control" id="email" required>
-                                    </div>
-                                    </div>
-                                </div>
+  <!-- ==== Email ==== -->
+  <div class="col-12">
+    <div class="row align-items-center">
+      <div class="col-2 col-md-1">
+        <label for="email" class="form-label mb-0">Email</label>
+      </div>
+      <div class="col-10 col-md-11">
+        <input type="email" class="form-control" id="email" required>
+      </div>
+    </div>
+  </div>
 
-                                <div class="col-12">
-                                    <div class="row align-items-center">
-                                    <div class="col-2 col-md-1">
-                                        <label class="form-label mb-0">Sex</label>
-                                    </div>
-                                    <div class="col-10 col-md-11">
-                                        <div class="form-check  me-3">
-                                        <input class="form-check-input" type="radio" name="sex" id="man" value="man" checked>
-                                        <label class="form-check-label" for="man">Man</label>
-                                        </div>
-                                        <div class="form-check d-inline-block">
-                                        <input class="form-check-input" type="radio" name="sex" id="woman" value="woman">
-                                        <label class="form-check-label" for="woman">Woman</label>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
+  <!-- ==== Sex (radio) ==== -->
+  <div class="col-12">
+    <div class="row align-items-center">
+      <div class="col-2 col-md-1">
+        <label class="form-label mb-0">Sex</label>
+      </div>
+      <div class="col-10 col-md-11">
+        <div class="form-check me-3">
+          <input class="form-check-input" type="radio" name="sex" id="man" value="man" checked>
+          <label class="form-check-label" for="man">Man</label>
+        </div>
+        <div class="form-check d-inline-block">
+          <input class="form-check-input" type="radio" name="sex" id="woman" value="woman">
+          <label class="form-check-label" for="woman">Woman</label>
+        </div>
+      </div>
+    </div>
+  </div>
 
-                                <div class="col-12">
-                                    <div class="row align-items-start">
-                                    <div class="col-2 col-md-1">
-                                        <label for="text" class="form-label mb-0">Text</label>
-                                    </div>
-                                    <div class="col-10 col-md-11">
-                                        <textarea class="form-control" id="text" rows="5" required></textarea>
-                                    </div>
-                                    </div>
-                                </div>
+  <!-- ==== Text (textarea) ==== -->
+  <div class="col-12">
+    <div class="row align-items-start">
+      <div class="col-2 col-md-1">
+        <label for="text" class="form-label mb-0">Text</label>
+      </div>
+      <div class="col-10 col-md-11">
+        <textarea class="form-control" id="text" rows="5" required></textarea>
+      </div>
+    </div>
+  </div>
 
-                                <div class="col-12">
-                                    <button type="submit" class="btn btn-info text-white text-uppercase w-30">Send</button>
-                                </div>
+  <!-- ==== Submit Button ==== -->
+  <div class="col-12">
+    <button type="submit" class="btn btn-info text-white text-uppercase w-30">Send</button>
+  </div>
 
-                        </form>
+</form>
+ 
                         </div>
                     </div>
                 </div>
